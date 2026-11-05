@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-cream text-forest antialiased}
+.dark body{@apply bg-[#06231a] text-cream}
+.glass{@apply rounded-3xl border border-white/30 bg-white/60 backdrop-blur-xl shadow-lg dark:bg-white/5 dark:border-white/10}
+.btn{@apply inline-flex items-center gap-2 rounded-full px-6 py-3 font-semibold transition hover:scale-105 active:scale-95}
+.inp{@apply w-full rounded-xl border border-forest/20 bg-white/70 px-3 py-2 dark:bg-white/10 dark:border-white/20}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}

@@ -1,0 +1,4 @@
+const S=[['Project introduction','[Edit: describe your CSP, college and team here]'],['Objectives','[Edit: list your objectives]'],['Why nutrition awareness matters','Good nutrition supports growth, immunity and productivity; poor diets contribute to anaemia and malnutrition.'],['Activities','[Edit: add real activities you conducted — none are claimed here]'],['Outcomes','[Edit: add real outcomes only]']];
+export default ()=><section className="mx-auto max-w-4xl px-4 py-12"><h1 className="font-display text-4xl font-bold">Our Community Service Project</h1>
+<div className="mt-6 grid gap-4">{S.map(([t,d])=><div key={t} className="glass p-6"><h2 className="font-display text-xl">{t}</h2><p className="mt-1">{d}</p></div>)}</div>
+<p className="mt-6 text-sm opacity-70">Upload real activity photos in the Image Gallery and reports in the PDF Library.</p></section>;
